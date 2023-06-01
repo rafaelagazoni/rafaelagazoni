@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+
+<body>
+    <header>
+        <img src="logo1.png" alt="logo1">
+        <h1 class="titulo-principal"> Atendimento com psicólogo</h1>
+
+        <nav>
+            <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <form>
+
+            <label for= "nomeesobrenome">Nome e sobrenome</label>
+            <input type="text" name="nome" id="nomesobrenome" 
+            class="input-padrao" placeholder="Seu nome e sobrenome" requerid>
+
+            <br><br>
+
+            <label for= "email">E-mail</label>
+            <input type="text" name="email" id="email" 
+            class="input-padrao" placeholder="Seu e-mail" requerid>
+
+            <br><br>
+
+            <label for= "telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" 
+            class="input-padrao" placeholder="(XX) XXXXX-XXXX" requerid>
+
+            <br><br>
+
+            <label for= "mensagem">Mensagem</label>
+            <textarea cols="61" rows= "10" id="mensagem" requerid> </textarea>
+
+            <br><br>
+            
+            <section>
+                <p>Como prefere nosso contato?</p>
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contato" value="email" id="radio-email">
+
+                <label for="radio-telefone">Telefone</label>
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+                <label for="radio-whatsapp">Whatsapp</label>
+                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
+            </section>
+            <br>
+            <section>
+                <p>Qual horário prefere ser atendido?</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </section>
+            <br>
+            <label for="checkbox">
+                <input type="checkbox">Gostaria de receber nossas novidades por email?
+            </label>
+            <br>
+            <input type="submit" value="Enviar formulário" class="enviar">
+
+        </form>
+
+    </main>
+
+    <footer><img src="logo1.png" alt="logo1>
+        <p class="copyright"> &copy; Copyright -- Rafaela Gazoni</p></footer>
+</body>
+</html>
